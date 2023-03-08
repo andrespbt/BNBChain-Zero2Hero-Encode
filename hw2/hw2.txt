@@ -1,0 +1,28 @@
+1- How many users are holding the pancake swap token 'cake' ?
+
+    There are 1,332,168 addresses holding cake. (03/08/2023)
+
+2- Approximately, how many unique addresses are there ?
+
+    There are approximately 266,740,868 unique addresses on the Bnb Chain
+
+3- Who validated the first block after the genesis block ?
+
+    The first block after genesis was validated by this address 0x2a7cdd959bFe8D9487B2a43B33565295a698F7e2 (Sigm8)
+
+4- Roughly how many transactions are pending
+
+    At this moment are roughly 296 pending transactions
+
+5- Which contract is consuming most gas ?
+
+    The contract that is consuming most gas is 0x55d398326f99059fF775485246999027B3197955 (BUSD-T Stablecoin)
+    with 1,340,800 gas used
+
+6- How much gas is needed to have a transaction get in a block within 5 - 10 s ?
+
+    The gas needed to have a transaction get in 5 - 10 s is 5 Gwei
+
+7- What is special about this transaction 0x1bfbff8411ed44e609d911476b0d35a28284545b690902806ea0a7ff0453e931
+
+    That is the transaction where the token 'cake' was created.
