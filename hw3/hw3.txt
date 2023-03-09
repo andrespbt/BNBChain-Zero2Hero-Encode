@@ -1,0 +1,3 @@
+- Do you understand how the abi relates to your contract's code?
+
+    Yes, the abi is the standard way to interact with contracts, both from outside the blockchain and for contract-to-contract interaction. 
