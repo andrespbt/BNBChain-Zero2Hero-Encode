@@ -1,0 +1,13 @@
+There are several vulnerabilities and flaws in this contract:
+
+1- Security: The contract is missing access control, which means anyone can call the functions, including the addNewPlayer() function. This can lead to unauthorized players being added to the game or prize_winners being picked by someone who is not a player.
+
+2- Randomness: The contract is using block timestamp to generate a random number for picking the winner. This method is not secure and can be manipulated by miners or attackers. A better way to generate a random number is to use a trusted external oracle or a cryptographic random number generator.
+
+3- Integer Overflow: The num_players variable is an unsigned integer, which means it can overflow and reset to zero when it reaches its maximum value. This can lead to unexpected behavior in the contract, such as the winners being paid out before the game is over.
+
+4- Out of Gas: The distributePrize() function could run out of gas if there are too many prize_winners. This is because the function is using a for loop to distribute the prize to each winner, which can be expensive if there are a large number of winners.
+
+5- Logic: The contract is paying out the prize to all the winners, even if there are more winners than the number of players allowed in the game. This means that the prize pool can be depleted if there are too many winners, which could lead to the contract not having enough funds to pay out future winners.
+
+6- Code Quality: The naming conventions are not consistent.
